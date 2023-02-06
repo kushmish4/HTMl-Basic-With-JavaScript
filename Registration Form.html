@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <style>
+        body {
+             background-image: url("mine.jpg");
+             background-size: 100% 450%;
+             background-repeat: no-repeat
+        }
+        </style>
+        <form>
+            <table align="center" width="1000">
+                <caption>Form fill crow</caption>
+                <tr>
+                    <td>UserId</td>
+                    <td><input type="text" placeholder="max 8 chr only"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="textpassword" placeholder="it should be of 8 chr"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="=number" name="textage" min="18" max="30"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="textmail" placeholder="@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td>Fav Coding Language</td>
+                    <td><input type="Text" list="Languages">
+                        <datalist id="Languages">
+                            <option>Java</option>
+                            <option>Python</option>
+                            <option>C++</option>
+                            <option>C</option>
+                        </datalist>
+                        </td>
+                </tr>
+                <tr>
+                    <td>Upload Photo</td>
+                    <td>
+                        <input type="file" name="textfile">
+                    </td>
+                    <tr>
+                        <td colspan="3" align="center">
+                            <input type="submit" value="Register">
+                        </td>                   
+                    </tr>
+            </table>
+        </form>
+    </body>
+</html>

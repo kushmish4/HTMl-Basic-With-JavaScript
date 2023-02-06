@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+ function addNumbers() 
+{
+  
+    let num1 = document.getElementById("num1").value;
+    let num2 = document.getElementById("num2").value;
+    let result = parseFloat(num1) + parseFloat(num2);
+    document.getElementById("result").innerHTML = "The result is: " + result;
+} 
+</script>
+
+ <body>
+
+ <p>enter the first number <input id="num1"></p>
+ <p>Enter the Second Number: <input id="num2"></p>
+ <button onclick="addNumbers()">add</button>
+ <p id="result"></p>
+
+</body>
+</head>
+</html>
+
+

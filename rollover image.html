@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title> Rollover Image Effect in Html</title>
+         
+   </head>
+    <body>
+        <h2>Rollover Image Effect in Html</h2>
+        <img id="myImage" src="try.png" onmouseover="changeImage()" onmouseout="restoreImage()">
+
+<script>
+  function changeImage() {
+    var image = document.getElementById("myImage");
+    image.src = "try2.png";
+  }
+  function restoreImage() {
+    var image = document.getElementById("myImage");
+    image.src = "try.png";
+  }
+</script>
+
+    </body>
+</html>
